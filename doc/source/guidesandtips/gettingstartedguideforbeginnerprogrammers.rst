@@ -103,7 +103,7 @@ Enter the following code in the script editor:
     // Get root access to target server
     nuke(target);
 
-    // Infinite loop that continously hacks/grows/weakens the target server
+    // Infinite loop that continuously hacks/grows/weakens the target server
     while(true) {
         if (getServerSecurityLevel(target) > securityThresh) {
             // If the server's security level is above our threshold, weaken it
